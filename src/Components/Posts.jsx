@@ -1,11 +1,16 @@
 import Post from "./Post.jsx";
 
+
+
+
 function Posts() {
 
     return (
-        <>
-        <Post/>
-        </>
+        <ul>
+            <Post/>
+            <Post/>
+            <Post/>
+        </ul>
     )
 }
 

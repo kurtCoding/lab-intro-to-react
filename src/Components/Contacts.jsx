@@ -3,9 +3,12 @@ import ContactUserCard from "./ContactUserCard.jsx";
 function Contacts() {
 
     return (
-        <>
-        <ContactUserCard/>
-        </>
+        <ul>
+            <ContactUserCard/>
+            <ContactUserCard/>
+            <ContactUserCard/>
+            <ContactUserCard/>
+        </ul>
     )
 }
 

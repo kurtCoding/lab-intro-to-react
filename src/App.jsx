@@ -6,15 +6,16 @@ import Posts from "./Components/Posts.jsx"
 import UserProfile from "./Components/UserProfile.jsx";
 
 function App() {
+
   return (
     <>
-    <Contacts/>
+      <NavBar/>
 
-    <NavBar/>
+      <UserProfile/>
 
-    <Posts/>
+      <Posts/>
 
-    <UserProfile/>
+      <Contacts/>
     </>
   )}
 
